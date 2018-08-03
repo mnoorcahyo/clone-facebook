@@ -1,0 +1,84 @@
+#header {
+    height: 70px;
+    background-color:#494299    ;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#brand-logo {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#home-content {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.input-group{
+    display: flex;
+}
+
+#first-name{
+    margin-right: 5px;
+    width: 100%
+}
+
+#surename {
+    margin-left: 5px;
+    width: 100%
+}
+
+#mobile-or-email{
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.label1{
+    margin: 0px;
+    font-size: 15px;
+    color:#FFFFFF;
+}
+#menu-login td{
+    color: #FFFFFF;
+    padding-right: 10px;    
+}
+
+#new-password{
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Birthday{
+    display: flex;
+    margin-top: 2px;
+}
+.birthday-year{
+    margin-right: 10px;
+}
+.why{
+    margin: 0px;
+    font-size: 11px;
+    max-width: 150px;
+}
+h5{
+    margin: 0px;
+}
