@@ -1,6 +1,6 @@
 #header {
     height: 70px;
-    background-color:#494299    ;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
     padding-left: 15%;
     padding-right: 15%;
 
@@ -22,7 +22,14 @@ body {
 
 #brand-logo {
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 40px;
+    
+}
+.menu div:first-child{
+    padding-top: 20px;
+}
+.menu div:last-child{
+    padding-top: 10px;
 }
 
 #home-content {
@@ -59,7 +66,8 @@ body {
 }
 #menu-login td{
     color: #FFFFFF;
-    padding-right: 10px;    
+    padding-right: 10px; 
+    font-size: 15px;   
 }
 
 #new-password{
@@ -79,6 +87,37 @@ body {
     font-size: 11px;
     max-width: 150px;
 }
-h5{
+h4{
     margin: 0px;
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 15px;
+}
+
+.gen{
+    width: 100%;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.link{
+    font-size: 11px;
+    width: 316px;
+}
+
+.p-link{
+    width: 399px;
+}
+
+#c-homkonten{
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.btn-su {
+    margin-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
